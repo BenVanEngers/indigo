@@ -1,0 +1,27 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+.dialog {
+  min-width: 0;
+  min-height: 0;
+}
+.list {
+  height: max-content;
+  min-width: max-content;
+  flex-shrink: 0;
+}
+.list-item {
+  min-width: 0;
+  min-height: 0;
+}
+.avatar {
+  color: hsla(var(--igx-grays-800));
+  background-color: hsla(var(--igx-grays-400));
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}
